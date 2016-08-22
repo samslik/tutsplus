@@ -1,0 +1,94 @@
+body {
+	margin:0;
+}
+header {
+	margin:0;
+	width:100%;
+	height: 135px;
+	background-color: #2a3744;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+header a{
+	text-decoration: none;
+}
+.nav{
+	max-width: 960px;
+	margin: auto;
+	position: relative;
+	top:0;
+}
+.up{
+	float: right;
+}
+.logo{
+	float:left;
+}
+.upper li{
+	padding-top: 0px;
+	display: inline-block;
+}
+.upper li a{
+	color: #999999;
+	line-height: 30px;
+	margin:0 30px 0 0;
+}
+.pricing{
+	background: #82b541;
+	border-radius: 4px;
+	font-weight: 500;
+	height: 30px;
+}
+.pricing:hover{
+	background-color: #9ec170;
+}
+.upper .pricing a{
+	color: white;
+	padding:0 20px;
+	margin:0;
+}
+.upper li a:hover{
+	color: white;
+}
+.lower{
+	float: left;
+	position: relative;
+	top:20px;
+}
+.upper{
+	-webkit-margin-before:0;
+	padding-top: 22px;
+}
+.search{
+	float: right;
+	background-color: #2a3744;
+}
+#search{
+	background-color: #2a3744;
+	border: 1px solid grey;
+	border-radius: 4px;
+	height: 22px;
+	width:282px;
+	padding: 6px 8px;
+	color: white;
+}
+#search:hover{
+	background-color: #3c444c;
+}
+.lower li a{
+	color:white;
+	font-size: 16px;
+	margin-right: 35px;
+}
+.lower li a:hover{
+	color: #999999;
+}
+.lower li{
+	display:inline;
+}
+.lower div{
+	display:inline;
+} 
+.down{
+	clear: both;
+}
